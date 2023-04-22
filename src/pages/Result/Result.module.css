@@ -88,6 +88,12 @@
   position: absolute;
 }
 
+.point {
+  font-weight: 600;
+  position: relative;
+  left: -5px; /*-155px이 0, -5가 50 145px 100*/
+}
+
 .green {
   background-color: #7EBE6D;
 }
