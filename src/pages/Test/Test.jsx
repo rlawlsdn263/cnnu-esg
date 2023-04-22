@@ -2,7 +2,6 @@ import styles from "./Test.module.css";
 import {Button} from "../../components"
 import data from "../../data/data.json"
 import { useState } from 'react';
-import { useEffect } from 'react';
 
 export function Test() {
   const [test, setTest] = useState(data);
@@ -21,15 +20,15 @@ export function Test() {
   } */
 
   function no(){
-    setCount(prev => prev + 1);
+    setCount(prev => prev + 1)
   }
   
   function normal(){
-    setCount(prev => prev + 2);
+    setCount(prev => prev + 1)
   }
   
   function yes(){
-    setCount(prev => prev + 3);
+    setCount(prev => prev + 1)
   }
 
   return(<>
