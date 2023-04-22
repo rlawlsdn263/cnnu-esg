@@ -2,20 +2,29 @@ import styles from "./Test.module.css";
 import {Button} from "../../components"
 import data from "../../data/data.json"
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export function Test() {
+  const navigate = useNavigate();
   const test = data;
   const [index, setIndex] = useState(0);
+  
+  function goToResult() {
+    navigate("/result");
+  }
 
   function no(){
+    if(index + 1 === test.length) goToResult();
     setIndex(prev => prev + 1)
   }
   
   function normal(){
+    if(index + 1 === test.length) goToResult();
     setIndex(prev => prev + 1)
   }
   
   function yes(){
+    if(index + 1 === test.length) goToResult();
     setIndex(prev => prev + 1)
   }
 

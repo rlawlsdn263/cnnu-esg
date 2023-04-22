@@ -2,7 +2,6 @@ import styles from "./Result.module.css";
 import { Button } from "../../components"
 
 export function Result() {
-  console.log(styles)
   return(
   <div className={styles.container}>
     <h2 className={styles.title}>산림ESG경영 진단결과</h2>
