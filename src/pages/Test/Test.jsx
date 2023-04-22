@@ -1,7 +1,9 @@
 import styles from "./Test.module.css";
 import {Button} from "../../components"
+import data from "../../data/data.json"
 
 function no(){
+  console.log(data)
   console.log(-1);
 }
 
