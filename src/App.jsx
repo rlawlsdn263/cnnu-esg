@@ -1,4 +1,4 @@
-import { Home, Test } from "./pages"
+import { Home, Test, Result } from "./pages"
 import logo from "./assets/logo.svg"
 import styles from "./App.module.css"
 import {Routes, Route} from "react-router-dom";
@@ -18,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/test" element={<Test />}/>
+          <Route path="/result" element={<Result />}/>
         </Routes>
         <div className={styles.shadow}></div>
       </div>

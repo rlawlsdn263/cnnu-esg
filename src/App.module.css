@@ -20,41 +20,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
   position: relative;
 }
-
-/* .container {
-  font-size: 20px;
-}
-
-.title {
-  font-weight: 800;
-  font-size: 50px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.text {
-  margin-bottom: 4px;
-  text-align: center;
-}
-
-.text:last-child {
-  margin-top: 20px;
-}
-
-.button {
-  margin-top: 96px;
-  width: 168px;
-  height: 60px;
-  border-radius: 12px;
-  border: none;
-  background-color: #4C9E6A;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-} */
 
 .footer {
   width: 1280px;
