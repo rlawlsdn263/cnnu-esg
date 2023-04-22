@@ -1,0 +1,77 @@
+.test {
+  width: 1130px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: black;
+  position: relative;;
+}
+
+.testHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 32px;;
+}
+
+.number {
+  font-size: 24px;
+  margin-right: 32px;
+}
+
+.testBody {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.testNumber {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.testText {
+  font-size: 20px;
+}
+
+.testButtons {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testButtons button {
+  margin: 0 30px;
+  width: 168px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.ButtonNo {
+  background-color: #4C9E6A;
+}
+
+.ButtonNormal {
+  background-color: #7EBE6D;
+}
+
+.ButtonYes {
+  background-color:#80c96c;
+}
