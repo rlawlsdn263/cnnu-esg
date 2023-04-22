@@ -16,7 +16,7 @@ export function Result() {
     <h2 className={styles.title}>산림ESG경영 진단결과</h2>
     <div className={styles.result}>
       <div className={styles["result-top"]}>
-        <span className={styles["result-text"]}>누르의 진단 결과는:</span>
+        <span className={styles["result-text"]}>당신의 진단 결과는:</span>
         <span className={styles["result-title"]}>{result[2].percentage}</span>
       </div>
       <div className={styles["inner-container"]}>
